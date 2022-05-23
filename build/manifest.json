@@ -1,0 +1,19 @@
+{
+  "name": "Virtual Camera for Virtual Reaction",
+  "description": "Virtual Camera for Virtual Reaction",
+  "version": "1.0",
+  "content_scripts":[
+    {
+      "matches":["https://www.google.co.jp/","https://zoom.us/*","https://us04web.zoom.us/*"],
+      "js":["index.js"],
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [{
+    "resources": ["main.js"],
+    "matches":["https://*/*"]
+  }],
+  "permissions": ["tabs"],
+  "host_permissions": ["https://*/*"],
+  "manifest_version": 3
+}
