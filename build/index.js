@@ -1,5 +1,4 @@
 "use strict";
-window.open('http://werid-air.main.jp/work/', '', 'top=0,left=0,width=800,height=600');
 var script = document.createElement("script");
 script.setAttribute("type", "module");
 script.setAttribute("src", chrome.runtime.getURL("camera.js"));
@@ -12,5 +11,9 @@ var head = document.head ||
 head.insertBefore(script, head.lastChild);
 head.insertBefore(script2, head.lastChild);
 var body = document.body;
-var html = 'test';
+var html = '<input type="button" value="REACTION START" id="ReactionStart">\
+<input type="button" value="😄" id="Reaction1">\
+<input type="button" value="😲" id="Reaction2">\
+<input type="button" value="😫" id="Reaction3">\
+<input type="button" value="🙆" id="Reaction4">';
 body.insertAdjacentHTML('afterbegin', html);

@@ -1,6 +1,3 @@
-//仮想モデルページを新規ウィンドウで開く(仮)
-window.open('http://werid-air.main.jp/work/', '', 'top=0,left=0,width=800,height=600');
-
 //jsファイルを指定したscriptタグを追加
 const script = document.createElement("script");
 script.setAttribute("type", "module");
@@ -21,7 +18,12 @@ head.insertBefore(script2, head.lastChild);
 
 // サイトの `<body />` を取得する
 const body = document.body
-const html = 'test'
+const html = '<input type="button" value="REACTION START" id="ReactionStart">\
+<input type="button" value="😄" id="Reaction1">\
+<input type="button" value="😲" id="Reaction2">\
+<input type="button" value="😫" id="Reaction3">\
+<input type="button" value="🙆" id="Reaction4">'
+
 
 //  `<body />`の先頭に挿入する。
 body.insertAdjacentHTML('afterbegin', html);
