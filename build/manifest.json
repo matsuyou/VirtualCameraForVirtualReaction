@@ -10,7 +10,7 @@
     }
   ],
   "web_accessible_resources": [{
-    "resources": ["camera.js","gui.js"],
+    "resources": ["camera.js","gui.js","gui.css"],
     "matches":["https://*/*"]
   }],
   "permissions": ["tabs"],
