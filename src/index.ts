@@ -22,12 +22,16 @@ head.insertBefore(script2, head.lastChild);
 head.insertBefore(script3, head.lastChild);
 
 // サイトの `<body />` を取得する
-const body = document.body
-const html = '<input type="button" value="REACTION START" id="ReactionStart">\
-<input type="button" value="😄" id="Reaction1">\
-<input type="button" value="😲" id="Reaction2">\
-<input type="button" value="😫" id="Reaction3">\
-<input type="button" value="🙆" id="Reaction4">'
+const body = document.body;
+const html = '<div class="controller">\
+  <nav class="controll_nav">\
+    <input type="button" value="START" id="ReactionStart">\
+    <input type="button" value="😄" id="Reaction1">\
+    <input type="button" value="😲" id="Reaction2">\
+    <input type="button" value="😫" id="Reaction3">\
+    <input type="button" value="🙆" id="Reaction4">\
+  </nav>\
+</div>';
 
 
 //  `<body />`の先頭に挿入する。
