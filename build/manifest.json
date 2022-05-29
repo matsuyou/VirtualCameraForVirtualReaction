@@ -4,7 +4,9 @@
   "version": "1.0",
   "content_scripts":[
     {
-      "matches":["https://www.google.co.jp/","https://zoom.us/*","https://us04web.zoom.us/*"],
+      "matches":["https://www.google.co.jp/",
+        "https://zoom.us/*",
+        "https://us04web.zoom.us/*"],
       "js":["index.js"],
       "all_frames": true
     }
@@ -12,6 +14,7 @@
   "web_accessible_resources": [{
     "resources": ["camera.js","gui.js","gui.css"],
     "matches":["https://*/*"]
+
   }],
   "permissions": ["tabs"],
   "host_permissions": ["https://*/*"],

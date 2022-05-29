@@ -1,5 +1,5 @@
 /**
- * @description 画面キャプチャのStreamを返す関数
+ * @description 画面キャプチャのStreamを返す
  */
  const getCaptureStream = async () => {
     // 画面キャプチャのStreamを取得する
@@ -18,7 +18,7 @@
     return captureStream;
   };
 
-  /**
+/**
  * @description 仮想カメラか判定する
  */
 const isVirtualDevice = (video?: MediaTrackConstraints | boolean): boolean => {

@@ -19,6 +19,7 @@ var body = document.body;
 var html = '<div class="controller">\
   <nav class="controll_nav">\
     <input type="button" value="START" id="ReactionStart">\
+    <input type="button" value="STOP" id="ReactionStop">\
     <input type="button" value="😄" id="Reaction1">\
     <input type="button" value="😲" id="Reaction2">\
     <input type="button" value="😫" id="Reaction3">\
