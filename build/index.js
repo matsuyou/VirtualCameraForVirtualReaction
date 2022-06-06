@@ -17,13 +17,6 @@ head.insertBefore(script2, head.lastChild);
 head.insertBefore(script3, head.lastChild);
 var body = document.body;
 var html = '<div class="controller">\
-  <nav class="controll_nav">\
-    <input type="button" value="START" id="ReactionStart">\
-    <input type="button" value="STOP" id="ReactionStop">\
-    <input type="button" value="😄" id="Reaction1">\
-    <input type="button" value="😲" id="Reaction2">\
-    <input type="button" value="😫" id="Reaction3">\
-    <input type="button" value="🙆" id="Reaction4">\
-  </nav>\
+<input type="button" value="Reaction Start!" id="ReactionStart">\
 </div>';
-body.insertAdjacentHTML('afterbegin', html);
+body.insertAdjacentHTML('beforebegin', html);

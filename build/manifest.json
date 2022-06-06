@@ -6,7 +6,8 @@
     {
       "matches":["https://www.google.co.jp/",
         "https://zoom.us/*",
-        "https://us04web.zoom.us/*"],
+        "https://us04web.zoom.us/*",
+        "https://meet.google.com/*"],
       "js":["index.js"],
       "all_frames": true
     }

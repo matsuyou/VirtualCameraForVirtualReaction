@@ -24,16 +24,7 @@ head.insertBefore(script3, head.lastChild);
 // サイトの `<body />` を取得する
 const body = document.body;
 const html = '<div class="controller">\
-  <nav class="controll_nav">\
-    <input type="button" value="START" id="ReactionStart">\
-    <input type="button" value="STOP" id="ReactionStop">\
-    <input type="button" value="😄" id="Reaction1">\
-    <input type="button" value="😲" id="Reaction2">\
-    <input type="button" value="😫" id="Reaction3">\
-    <input type="button" value="🙆" id="Reaction4">\
-  </nav>\
+<input type="button" value="Reaction Start!" id="ReactionStart">\
 </div>';
-
-
-//  `<body />`の先頭に挿入する。
-body.insertAdjacentHTML('afterbegin', html);
+//  `<body />`の最初に挿入する。
+body.insertAdjacentHTML('beforebegin', html);
