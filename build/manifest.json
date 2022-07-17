@@ -1,6 +1,6 @@
 {
   "name": "Virtual Camera for Virtual Reaction",
-  "description": "Virtual Camera for Virtual Reaction",
+  "description": "Extensions for using virtual cameras in web meeting",
   "version": "1.0",
   "content_scripts":[
     {
@@ -14,10 +14,10 @@
   ],
   "web_accessible_resources": [{
     "resources": ["camera.js","gui.js","gui.css"],
-    "matches":["https://*/*"]
-
+    "matches":["https://zoom.us/*",
+    "https://us04web.zoom.us/*",
+    "https://teams.live.com/*",
+    "https://meet.google.com/*"]
   }],
-  "permissions": ["tabs"],
-  "host_permissions": ["https://*/*"],
   "manifest_version": 3
 }

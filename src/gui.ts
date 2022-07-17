@@ -5,7 +5,7 @@ var subWin: any = null;
  * @description 仮想モデルページを新規ウィンドウで開く/閉じる(仮)
  */
 function WindowOpen() {
-    subWin = window.open('https://glacial-meadow-27403.herokuapp.com/gui/', 'sample', 'top=50,left=50,width=1125,height=215');
+    subWin = window.open('https://glacial-meadow-27403.herokuapp.com/gui/', 'sample', 'top=50,left=50,width=900,height=200');
 }
 /**
  * @description ボタン押下時の処理設定
