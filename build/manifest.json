@@ -7,6 +7,7 @@
       "matches":["https://zoom.us/*",
         "https://us04web.zoom.us/*",
         "https://teams.live.com/*",
+        "https://teams.microsoft.com/*",
         "https://meet.google.com/*"],
       "js":["index.js"],
       "all_frames": true
@@ -17,6 +18,7 @@
     "matches":["https://zoom.us/*",
     "https://us04web.zoom.us/*",
     "https://teams.live.com/*",
+    "https://teams.microsoft.com/*",
     "https://meet.google.com/*"]
   }],
   "manifest_version": 3
