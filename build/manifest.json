@@ -1,7 +1,7 @@
 {
   "name": "Virtual Camera for Virtual Reaction",
   "description": "Extensions for using virtual cameras in web meeting",
-  "version": "1.1",
+  "version": "1.2",
   "content_scripts":[
     {
       "matches":["https://zoom.us/*",
